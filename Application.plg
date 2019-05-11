@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Application - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Application.res" /d "NDEBUG" /d "_AFXDLL" "D:\ad sys\Application_origin\Application.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEF.tmp" with contents
+[
+libpng13.lib opengl32.lib glu32.lib glaux.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Application.pdb" /machine:I386 /out:"Application.exe" 
+".\Release\AdSelectDlg.obj"
+".\Release\Application.obj"
+".\Release\ApplicationDoc.obj"
+".\Release\ApplicationView.obj"
+".\Release\Camera.obj"
+".\Release\CameraTimeDlg.obj"
+".\Release\CamNumSetDlg.obj"
+".\Release\CamSelectDlg.obj"
+".\Release\DemoModeDlg.obj"
+".\Release\LeftView.obj"
+".\Release\MainFrm.obj"
+".\Release\math_ops.obj"
+".\Release\MatSelectDlg.obj"
+".\Release\OpenGL.obj"
+".\Release\ParamInputDlg.obj"
+".\Release\ParamView.obj"
+".\Release\pngLoad.obj"
+".\Release\Statium.obj"
+".\Release\StatiumGL.obj"
+".\Release\StatusDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\Texture.obj"
+".\Release\Application.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+LINK : warning LNK4089: all references to "ADVAPI32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+Application.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
